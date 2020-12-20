@@ -2,14 +2,59 @@
 <head>
     <title>Product Landing Page</title>
     <style>
+header {
+ position: fixed;
+ height: 50px;
+ width: 95%;
+}
+#header-space, #sub-header {
+    height: 50px;
+}
+img {
+    width: 50x;
+    height: 50px;
+    border-radius: 70%;
+}
+nav {
+    display: inline;
+    float: right;
+    position: relative;
+    bottom: 20px;
 
+}
 
-    </style>
+#FirstPart {
+    display: flex;
+    height: 200px;
+}
+@media (max-height: 100px) {
+    h1 {
+        font-size: 10px;
+    }
+}
+    </style> 
 </head>
     <body>
-        <h1>
-            
-        </h1>
+        <header id="header">
+            <img id="header-img" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3fa7c5bb-6085-4aba-bb88-a351948cf4f7/d2bj78z-e744d133-0dea-4c33-937f-43ec6a8874cd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2ZhN2M1YmItNjA4NS00YWJhLWJiODgtYTM1MTk0OGNmNGY3XC9kMmJqNzh6LWU3NDRkMTMzLTBkZWEtNGMzMy05MzdmLTQzZWM2YTg4NzRjZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Qp-kurSzYIzsgR__6vBJOvuPZRw4-qZkMtk2O_dvMf4">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#FirstPart">FirstPart</a>
+                <a class="nav-link" href="#SecondPart">SecondPart</a>
+                <a class="nav-link" href="#ThirdPart">ThirdPart</a>
+            </nav>
+        </header>
+        <div id="header-space"></div>
+        <div id="sub-header"></div>
+        
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email"><input id="email" type="email" name="email" placeholder="Enter your email"></label>
+            <input id="submit" type="submit">
+        </form>
+       <div id="middle"></div>
+        <div id="FirstPart"></div>
+        <div id="SecondPart"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/b4yev2YR6Zs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="ThirdPart"></div>
+        
     </body>
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </html>
